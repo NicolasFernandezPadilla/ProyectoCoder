@@ -48,4 +48,9 @@ class Posteo(models.Model):
     fecha_creacion = models.DateField('Fecha de creacion', auto_now= False, auto_now_add= True)
 
 
+class Meta:
+    verbose_name = 'Posteo'
+    verbose_name_plural = 'Posteos'
 
+def __str__(self):
+    return self.titulo

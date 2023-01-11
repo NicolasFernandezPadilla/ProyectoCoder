@@ -12,10 +12,7 @@ def noticias(request):
 
 def analisis(request):
     return render(request, "analisis.html")
-
-def experiencias(request):
-    return render(request, "experiencias.html")
-
+    
 def posteo(request):
     return render(request, "posteo.html")
 
